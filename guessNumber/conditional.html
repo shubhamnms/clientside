@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Conditionals: Task 2</title>
+    <style>
+        p {
+            color: purple;
+            margin: 0.5em 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+<!--    <link rel="stylesheet" href="../styles.css" />-->
+</head>
+
+<body>
+
+<section class="preview"></section>
+
+</body>
+
+
+<script>
+    let response;
+    let score = prompt();
+    let machineActive = false;
+
+    if (score>100 || score<0){
+        response = 'Error';
+    }else if(score>=0 && score<20){
+        response = 'total fail';
+    }else if(score>=20 && score<40){
+        response = 'Improvement needed';
+    }else if(score>=40 && score<69){
+        response = 'passable job';
+    }else if(score>=70 && score<89){
+        response = 'Good job , Keep growing';
+    }else if(score>=90){
+        response = 'really n igga';
+    }
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+
+    para1.textContent = `Your score is ${ score }`;
+    para2.textContent = response;
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+
+</script>
+
+</html>
