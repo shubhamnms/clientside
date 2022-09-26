@@ -1,0 +1,20 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: hsla(0, 0%, 0%, 1);
+
+    background: linear-gradient(225deg, hsla(0, 0%, 0%, 1) 58%, hsla(356, 95%, 22%, 1) 80%, hsla(254, 100%, 50%, 1) 97%);
+
+    background: -moz-linear-gradient(225deg, hsla(0, 0%, 0%, 1) 58%, hsla(356, 95%, 22%, 1) 80%, hsla(254, 100%, 50%, 1) 97%);
+
+    background: -webkit-linear-gradient(225deg, hsla(0, 0%, 0%, 1) 58%, hsla(356, 95%, 22%, 1) 80%, hsla(254, 100%, 50%, 1) 97%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#6E030A", GradientType=1 );
+}
+li{
+    text-color: white;
+}

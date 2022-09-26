@@ -1,0 +1,95 @@
+
+body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: darkseagreen;
+    opacity: 80%;
+}
+.container ,.logincontainer{
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-family: "Cursive", Lucida Handwriting, cursive;
+    background-color: steelblue;
+    width: 70%;
+    border: 5px inset black;
+    margin: auto;
+}
+h1{
+    text-shadow: 0 0 3px red, 0 0 5px blue ;
+    color:white;
+    text-align: center;
+}
+
+
+label{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #fff1f1;
+    border: 5px outset gray;
+    border-radius: 15px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #fff1f1;
+    outline: none;
+}
+div {
+    padding: 10px 0;
+
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+
+}
+button {
+    background-color: yellow;
+    color: red;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 30%;
+    border: 5px outset gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    font-size: 1vw;
+
+}
+.registerbtn:hover {
+    background-color: #0000FF;
+    color: white;
+
+}
+.signbtn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.material-icons{
+    top: 10px;
+    color:blue;
+}
+#course ,#gender {
+    margin-left: 20%;
+}
+a:hover,a:link{
+    text-decoration: black;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

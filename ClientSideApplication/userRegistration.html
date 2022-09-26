@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyle.css">
+  <script type = "text/javascript" SRC="myscript.js">
+  </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<form action = "method.php" method="post" name = "myForm" onsubmit = "return(validate());">
+  <div class="container">
+    <h1 id="head" > Student Registration Form</h1>
+    <hr>
+    <label> Firstname </label>
+    <input  type="text" name="firstname" placeholder= "Firstname" size="15"  />
+    <label> Lastname: </label>
+    <input   type="text" name="lastname" placeholder="Lastname" size="15" />
+
+      <label id="course">Course :</label>&nbsp;
+
+      <select>
+        <option value="Course">Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.Tech">M.Tech</option>
+      </select>
+
+      <label id="gender">Gender :</label>
+      <select>
+      <option value="MALE">MALE</option>
+      <option value="FEMALE">FEMALE</option>
+      <option value="NA">PREFER NOT TO SAY</option>
+      </select><br>
+    <label for="phone">Phone :</label><i class="material-icons" >phone</i>
+    <input id ="phone" type="text" name="phone" placeholder="phone no." size="10" >
+    <label for="email"><b>Email :</b></label>
+    <i class="material-icons" >email</i>
+    <input id="email" type="text" placeholder="Enter Email" name="email" >
+    <label for="psw"><b>Password</b></label>
+    <input id="psw" type="password" placeholder="Enter Password" name="psw" >
+
+    <label for="psw_repeat"><b>Re-type Password</b></label>
+    <input id="psw_repeat" type="password" placeholder="Retype Password" name="psw-repeat" >
+    <button  type="submit" class="registerbtn">Register</button>
+    <button  type="submit" class="signbtn"><a href="signin.html">Already registered, Signin </a></button>
+  </div>
+</form>
+</body>
+</html>
